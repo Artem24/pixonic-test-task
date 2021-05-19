@@ -1,0 +1,21 @@
+# Ignore Gradle specific directories and files
+.gradle
+build
+
+# Ignore sds docker context directory
+.build
+
+# Ignore VS Code specific directories and files
+bin/
+.vscode/
+.settings/
+.project
+.classpath
+
+# Ignore Intellij IDEA specific directories and files
+.idea
+*.iml
+*.hprof
+
+# Ignore http-client env files with private data
+http-client.private.env.json
